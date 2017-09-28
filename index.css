@@ -1,0 +1,66 @@
+body{
+	background-color:#eee;
+}
+.header {
+	width: 244px;
+	height:100px;
+	margin: 0 auto 20px;
+	background-size:244px 100px;
+	padding: 10px 0 10px;
+}
+.form-control {
+	width:273px;
+	height:44px;
+	color:#000;
+	border:none;
+	outline:0;
+	margin:auto;
+	display:block;
+	padding-left:15px;
+	font-size:16px;
+	border-radius:4px;
+}
+.form-control:first-child {
+	border-bottom: 1px solid #eaeaea;
+}
+.login001 {
+	width:290px;
+	height:44px;
+	line-height:44px;
+	background-color:#146fdf;
+	border-radius:14px;
+	border:none; 
+	color:#fff;
+	font-size:16px;
+	margin:10px auto;
+	padding-left:15px;
+	display:block;
+}
+.login002 {
+	width:290px;
+	height:44px;
+	line-height:44px;
+	background-color:gray;
+	border-radius:14px;
+	border:none; 
+	color:#fff;
+	font-size:16px;
+	margin:10px auto;
+	padding-left:15px;
+	display:block;
+}
+.footer {
+	width:290px;
+	margin:auto;
+}
+
+.last001 {
+	color:#246183;
+	font-size:14px;
+}
+
+.last002 {
+	color:#246183;
+	font-size:14px;
+	float:right;
+}

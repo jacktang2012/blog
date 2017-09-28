@@ -1,0 +1,28 @@
+ssh-keygen -t rsa -b 4096 -C "jacktang2012@163.com"
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+git config --global user.name "jacktanghuipu"
+git config --global user.email "jacktang2012@163.com"
+
+ssh -vT git@github.com
+
+git clone git@github.com:jacktang2012/blog.git
+
+ssh-add C:\Users\newpartner\.ssh\id_rsa
+
+
+analysis.4sceners.de
+
+git@github.com:jacktang/blog.git
+
+git remote set-url origin https://github.com/jacktang2012/blog.git
+
+
+https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/HTML_basics
+
+
+git push origin master
+
