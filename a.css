@@ -2,6 +2,7 @@ body {
   background: #efefef;
   margin: 0;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -55,7 +56,20 @@ hr{
   display: block;
 }
 .topNavBar nav > ul > li > a:hover {
-  border-bottom: 3px solid #e06567;
+  border-bottom: 3px solid #e06567;  
+}
+
+.topNavBar nav > ul > li > a:hover:after {
+	content:'';
+	display:block;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100%
+	background-color:green;
+	height:10px;
+	
+	
 }
 
 .topNavBar .logo {
